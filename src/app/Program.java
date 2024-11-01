@@ -44,7 +44,8 @@ public class Program {
 				System.out.println("Error in reservation: Checkout date must be after chekin date.");
 			}else {
 				reservation.updateDates(checkIn, checkOut);
-				System.out.println("Reservation: " + reservation);			
+				System.out.println("Reservation: " + reservation);		
+				System.out.println();
 			}
 		} 
 		sc.close();
